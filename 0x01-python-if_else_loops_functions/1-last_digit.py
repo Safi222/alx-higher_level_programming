@@ -2,9 +2,9 @@
 import random
 number = random.randint(-10000, 10000)
 
-l_digit = abs(number)%10
+l_digit = abs(number) % 10
 if (number < 0):
-    number *= -1
+    l_digit *= -1
 
 if (l_digit == 0):
     line = "and is 0"
